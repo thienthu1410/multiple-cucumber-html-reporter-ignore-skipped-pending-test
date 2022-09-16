@@ -29,7 +29,7 @@ Refer [https://www.npmjs.com/package/multiple-cucumber-html-reporter] https://ww
 To ignore the skipped and pending tests from generating html report, add configuration report.generate: `ignoreSkipTest: true` in the file cucumber-html-reporter.js
 
 ```javascript
-cconst report = require("multiple-cucumber-html-reporter");
+const report = require("multiple-cucumber-html-reporter-ignore-skipped-pending-tests");
 
 report.generate({
 //  configuration...
